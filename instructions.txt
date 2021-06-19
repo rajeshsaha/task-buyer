@@ -1,0 +1,9 @@
+DB_NAME= buyer_report
+TABLE_NAME= buyers
+
+Cookie setting:
+	I named 'buyer' as cookie name and value as submission time which I show the user when s/he can submit again.
+	
+For Report filtering purpose:
+	I took entry_by as User ID.
+	If any date from/to value is given, then this value is attached to query. For this purpose, if date_from is missing, I took previous date 2000-01-01. And, if date_to is missing, then I took today's date.
